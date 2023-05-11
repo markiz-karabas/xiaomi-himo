@@ -112,6 +112,7 @@ p {
 }
 .bike__wrapper {
     display: flex;
+    margin: 95px 0;
 }
 .specification {
     display: flex;
