@@ -53,7 +53,7 @@ button::-moz-focus-inner {
 }
 a,
 a:visited {
-color: black;
+color: inherit;
 text-decoration: none;
 }
 a:hover {
@@ -75,7 +75,7 @@ p {
 }
 .header {
     width: 100%;
-    /*background-color: #e3e1e1;*/
+    border: 0;
 }
 .container {
     max-width: 1240px;
@@ -88,7 +88,11 @@ p {
     align-items: center;
 }
 .header__logo {
-    height: 100%;
+    height: 100px;
+    border: 0;
+}
+.header__logo>img {
+  height: 100%;
 }
 .menu {
     margin-right: 70px;
@@ -110,10 +114,138 @@ p {
     color:white;
     transition: all 0.6s;
 }
+.main {
+  border: 0;
+}
 .bike__wrapper {
     display: flex;
-    margin: 95px 0;
+    margin: 80px 0;
 }
 .specification {
     display: flex;
+}
+.title__bike__discription {
+  padding-top: 60px;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 64px;
+}
+.subtitle__bike__discription {
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #6F6F6F;
+  font-size: 32px;
+  margin: 5px 0 60px 0;
+}
+.text1__bike__discription {
+  width: 420px;
+}
+.text2__bike__discription {
+  width: 420px;
+  margin: 20px 0 80px 0;
+}
+.bike__order__box {
+  width: 420px;
+  height: 80px;
+  color: white;
+  background-color: black;
+  padding: 28px 81px;
+ }
+.bike__order__box:hover {
+  background-color: #FF4040;
+  transition: all 0.6s;
+}
+.bike__order__button {
+  font-family: 'Inter';
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+  text-transform: uppercase;
+
+  display: block;
+}
+.bike__gallery {
+  position: relative;
+}
+.specification {
+  position: absolute;
+  width: 500px;
+  height: 53px;
+  margin-top: 25px;
+  align-items: center;
+}
+.resource {
+  width: 78px;
+}
+.speed {
+  width: 80;
+}
+.mode {
+  width: 160;
+}
+.weight{
+  width: 40;
+}
+.specification__item {
+  gap: 45px;
+}
+.h__specification__item {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+.specification__item>p {
+  font-family: 'Inter';
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: lowercase;
+}
+.more__info{
+  width: 100%;
+}
+.info__wrapper {
+  display: flex;
+}
+.text__wrapper {
+  margin-left: 60px;
+}
+.more__info__item {
+  margin-bottom: 50px;
+}
+.more__info__h {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+.more__info__p {
+  margin-top: 10px;
+  font-family: 'Inter';
+  line-height: 120%;
+}
+.table__wrapper {
+  display: flex;
+  margin: 30px 0;
+}
+.table__left {
+  width: 570px;
+}
+.h__table {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+.photo__part {
+  margin-top: 174px;
+  margin-left: 60px;
+}
+.photo__slider {
+  margin-top: 90px;
 }
