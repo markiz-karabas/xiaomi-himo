@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Inter:regular,700&display=swap"
       rel="stylesheet"
@@ -92,28 +93,36 @@
                   <a href="#" class="bike__order__button">Заказать</a>
                 </div>
               </div>
-              <div class="bike__gallery">
-                <img src="/assets/img/bike-1.png" alt="bike" />
-                <div class="specification">
-                  <div class="specification__item resource">
-                    <h3 class="h__specification__item">до 100 км</h3>
-                    <p class="specification__item">Запас</p>
-                  </div>
-                  <div class="specification__item speed">
-                    <h3 class="h__specification__item">25 км/ч</h3>
-                    <p class="specification__item">Макс cкорость</p>
-                  </div>
-                  <div class="specification__item mode">
-                    <h3 class="h__specification__item">3 режима езды</h3>
-                    <p class="specification__item">механический, гибридный, электрический</p>
-                  </div>
-                  <div class="specification__item weight">
-                    <h3 class="h__specification__item">25 кг</h3>
-                    <p class="specification__item">вес</p>
-                  </div>
-                </div>
+            <div class="bike__slider-column">
+              <div class="bike__slider">
+                <img class="bike__slider-item" src="/assets/img/bike-slide1.png" alt="bike" />
+                <img class="bike__slider-item" src="/assets/img/bike-slide2.jpg" alt="bike" />
+                <img class="bike__slider-item" src="/assets/img/bike-slide3.jpg" alt="bike" />
+                <img class="bike__slider-item" src="/assets/img/bike-slide4.jpg" alt="bike" />
+              </div>
+                <ul class="bike__specification">
+                  
+                    <li class="bike__specification-item">
+                      <span class="specification-title">до 100 км</span>
+                      <span class="specification-text">Запас</span>
+                    </li>
+                    <li class="bike__specification-item">
+                      <span class="specification-title">25 км/ч</span>
+                      <span class="specification-text">Макс cкорость</span>
+                    </li>   
+                    <li class="bike__specification-item">
+                      <span class="specification-title">3 режима езды</span>
+                      <span class="specification-text">механический, гибридный, электрический</span>
+                    </li>
+                    <li class="bike__specification-item">
+                      <span class="specification-title">25 кг</span>
+                      <span class="specification-text">вес</span>
+                    </li>
+                  
+                </ul>
               </div>
             </div>
+          </div>
           </div>
         </section>
         <section class="more__info">
@@ -315,5 +324,9 @@
       </main>
       <footer class="footer"></footer>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
