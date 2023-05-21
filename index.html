@@ -117,13 +117,12 @@
                     <li class="bike__specification-item">
                       <span class="specification-title">25 кг</span>
                       <span class="specification-text">вес</span>
-                    </li>
-                  
+                    </li>  
                 </ul>
               </div>
             </div>
           </div>
-          </div>
+        </section>
         </section>
         <section class="more__info">
           <div class="container">
@@ -309,20 +308,77 @@
               </table>
             </div>
               <div class="photo__part">
-                <img src="/assets/img/bike_display.png" alt="bike_display">
+                <img src="./assets/img/bike_display.png" alt="bike_display">
               </div>
               </div>
           </div>
         </section>
-        <section class="slider">
+        <section class="slider-gallery">
           <div class="container">
-            <div class="photo__slider">
-              <img src="/assets/img/bike_slider.png" alt="bike-1">
+            <div class="slider__items">
+              <img class="gallery__img slider__item" src="./assets/img/galleryslide-1.png" alt="bike-1">
+              <img class="gallery__img slider__item" src="./assets/img/galleryslide-2.jpg" alt="bike-2">
+              <img class="gallery__img slider__item" src="./assets/img/galleryslide-3.jpg" alt="bike-3">
+            </div>
+          </div>
+        </section>
+        <section class="order-box">
+          <div class="container">
+            <div class="order-box__wrapper">
+              <form action="" class="order-form">
+                <h3 class="order-form__title">Заказать</h3>
+                <p class="order-form__text">Если Вы хотите заказать велосипед, оставьте свой контакт и наш менеджер перезвонит вам в ближайшее время</p>
+                <input class="order-formr__imput-name" type="text" placeholder="Имя">
+                <input class="order-form__imput-phone" type="tel" placeholder="Телефон">
+                <p class="order-form__input-text">выберите желаемый цвет</p>
+                <div class="order-form__lable-box">
+                  <label action="" class="lable-box__lable">
+                    <input type="radio" class="lable-box__input-radio" name="radio" id="">
+                    <img class="lable-box__img" src="./assets/img/himo_grey.png" alt="">
+                    <p class="lable-box__price">$ 899</p>
+                    <div class="lable-box__radio-style lable-box__radio-style--grey"></div>
+                  </label>
+                  <label action="" class="lable-box__lable">
+                    <input type="radio" class="lable-box__input-radio" name="radio" id="" checked>
+                    <img class="lable-box__img" src="./assets/img/himo_wight.png" alt="">
+                    <p class="lable-box__price">$ 899</p>
+                    <div class="lable-box__radio-style lable-box__radio-style--wigth"></div>
+                  </label>
+                  <label action="" class="lable-box__lable">
+                    <input type="radio" class="lable-box__input-radio" name="radio" id="">
+                    <img class="lable-box__img" src="./assets/img/himo_red.png" alt="">
+                    <p class="lable-box__price">$ 899</p>
+                    <div class="lable-box__radio-style lable-box__radio-style--red"></div>
+                  </label>
+                </div>
+                <button class="order-form__btn" type="submit">Заказать</button>
+              </form>
             </div>
           </div>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            <div class="footer__text">Политика конфиденциальности</div>
+              <div class="footer__social">
+                <img src="./assets/svg/inst-icon.svg" alt="" class="social-icon">
+                <img src="./assets/svg/fb-icon.svg" alt="" class="social-icon">
+              </div>
+              <div class="footer__contacts">
+                <div class="contacts__item">
+                  <img src="./assets/svg/phone-icon.svg" alt="" class="contacts-icon">
+                  <p class="contacts-text">+38 050 677 77 77</p>
+                </div>
+                <div class="contacts__item">
+                  <img src="./assets/svg/mail-icon.svg" alt="" class="contacts-icon">
+                  <p class="contacts-text">elektrobikeukr@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
